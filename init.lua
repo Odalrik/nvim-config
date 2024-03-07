@@ -1,2 +1,2 @@
-require("odalrik.remap")
-require("odalrik.set")
+require("lua.odalrik.remap")
+require("lua.odalrik.set")
