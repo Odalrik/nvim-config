@@ -58,5 +58,10 @@ return require('packer').startup(function(use)
   use('L3MON4D3/LuaSnip')
   use('rafamadriz/friendly-snippets')
   use('chentoast/marks.nvim')
+  use({
+      "nvim-treesitter/nvim-treesitter-textobjects",
+      after = "nvim-treesitter",
+      requires = "nvim-treesitter/nvim-treesitter",
+  })
 end)
 
